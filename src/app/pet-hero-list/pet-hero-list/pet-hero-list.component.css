@@ -4,7 +4,7 @@
   padding-top: 1em;
 }
 
-app-pet-hero-list-item {
+.item {
   border: 1px solid lightgrey;
   display: block;
   margin-bottom: 1em;

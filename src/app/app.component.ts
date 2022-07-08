@@ -15,6 +15,14 @@ export class AppComponent {
     {
       soundBite: 'Mee-Ciao',
       species: 'Catzilla'
+    },
+    {
+      soundBite: 'ssssss-sting',
+      species: 'Beemon'
+    },
+    {
+      soundBite: 'I am bat-bat',
+      species: 'Bat-Bat'
     }
   ]
 }

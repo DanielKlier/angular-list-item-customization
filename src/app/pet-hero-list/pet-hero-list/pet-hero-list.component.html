@@ -1,5 +1,9 @@
 <h3>PetHeroListComponent</h3>
 Here come the Pet Heroes!
+The PetHeroListComponent now imports the ClickToRevealWrapperModule directly. This adds an unwanted peer dependency to
+the library that exports the PetHeroListComponent.
 <section class="pet-hero-list">
-  <app-pet-hero-list-item *ngFor="let petHero of petHeroData" [petHero]="petHero"></app-pet-hero-list-item>
+  <app-click-to-reveal-wrapper *ngFor="let petHero of petHeroData" class="item">
+    <app-pet-hero-list-item [petHero]="petHero"></app-pet-hero-list-item>
+  </app-click-to-reveal-wrapper>
 </section>
