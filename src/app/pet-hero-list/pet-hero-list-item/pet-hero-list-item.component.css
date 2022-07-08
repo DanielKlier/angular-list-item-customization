@@ -1,0 +1,15 @@
+.pet-hero-list-item {
+
+}
+
+.pet-hero-list-item h4 {
+  margin: 0;
+  padding: 1em;
+  background: cornsilk;
+}
+
+.pet-hero-list-item blockquote {
+  border-left: 3px solid lightsteelblue;
+  margin: 1em 1em 1em 0.5em;
+  padding: 1em;
+}

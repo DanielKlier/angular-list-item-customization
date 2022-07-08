@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PetHeroData } from './pet-hero-list/pet-hero-data';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-list-item-customization';
+  petHeroData: PetHeroData[] = [
+    {
+      soundBite: 'Graww-Wuff!',
+      species: 'Growl-Corgie'
+    },
+    {
+      soundBite: 'Mee-Ciao',
+      species: 'Catzilla'
+    }
+  ]
 }

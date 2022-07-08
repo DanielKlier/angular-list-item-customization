@@ -1,0 +1,11 @@
+.pet-hero-list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+}
+
+app-pet-hero-list-item {
+  border: 1px solid lightgrey;
+  display: block;
+  margin-bottom: 1em;
+}
