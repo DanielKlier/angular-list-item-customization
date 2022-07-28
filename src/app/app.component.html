@@ -10,14 +10,20 @@
   </p>
 
   <p>
-    This means that our library needs to give client applications complete control over the wrapping code.
+    This means that our library needs to give client applications control over the wrapping code.
   </p>
 </section>
 
 <section>
   <h2>Demo section</h2>
   <p>This demo section shows how to render data from the input array in a list component that allows the embedding code
-  to provide its own wrapper.</p>
+    to provide its own wrapper.</p>
 
-  <app-pet-hero-list [petHeroData]="petHeroData"></app-pet-hero-list>
+  <app-pet-hero-list [petHeroData]="petHeroData" [itemWrapper]="itemWrapper"></app-pet-hero-list>
+
+  <ng-template #itemWrapper let-item>
+    <app-click-to-reveal-wrapper>
+      <ng-container [ngTemplateOutlet]="item"></ng-container>
+    </app-click-to-reveal-wrapper>
+  </ng-template>
 </section>

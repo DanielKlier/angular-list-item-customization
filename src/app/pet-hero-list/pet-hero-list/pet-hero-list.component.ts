@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, TemplateRef } from '@angular/core';
 import { PetHeroData } from '../pet-hero-data';
 
 @Component({
@@ -8,4 +8,5 @@ import { PetHeroData } from '../pet-hero-data';
 })
 export class PetHeroListComponent {
   @Input() petHeroData: PetHeroData[] = [];
+  @Input() itemWrapper?: TemplateRef<unknown>;
 }

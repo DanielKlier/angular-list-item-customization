@@ -1,6 +1,10 @@
-# AngularListItemCustomization
+# Customizing Lists With Angular Template References
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+This project contains the example code for my [blog post](https://blog.mimacom.com/angular-list-item-customization-using-template-references/) on customizing list item rendering using _Angular template references_.
+
+It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+
+You can check the commit history to see the steps from the starting point to the final state describe in the blog post.
 
 ## Development server
 
